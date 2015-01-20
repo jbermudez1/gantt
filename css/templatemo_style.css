@@ -159,13 +159,13 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     font-weight: normal;
     margin-top: 12px;
     font-size: 12px;
-    color: #e67e22;
+    color: #ff0000;
 }
 
 
 .btn-orange {
-    background-color: #ff7600;
-    border-bottom:2px solid #d35400;
+    background-color: #e80000;
+    border-bottom:2px solid #f82323;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .btn-orange:hover, .btn-orange:focus, .btn-orange:active, .btn-orange.active, .open .dropdown-toggle.btn-orange {
-    background-color: #d35400;
+    background-color: #c40000;
     color:#ffffff;
 }
 
@@ -197,13 +197,13 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 .nav > li > a:hover,
 .nav > li > a:focus {
-    background-color: #ff7600;
+    background-color: #e80000;
     color:#fff;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    background-color: #ff7600;
+    background-color: #e80000;
     color:#fff;
 }
 
@@ -219,7 +219,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    background-color: #ff7600;
+    background-color: #e80000;
     color:#fff;
 }
 
@@ -235,7 +235,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .templatemo-header-orange {
-    background-color:#ff7600;
+    background-color:#e80000;
     min-width: 298px;
     height: 67px;
     color: #fff; 
@@ -270,6 +270,11 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 .templatemo-line-header {
     margin-top:100px;
+    margin-bottom:80px;
+}
+
+.templatemo-line-header2 {
+    
     margin-bottom:80px;
 }
 
@@ -345,7 +350,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 .project-overlay {
     background : rgba(0,0,0,.75);
-    border : 2px solid #ff7600;
+    border : 2px solid #e80000;
     visibility: hidden;
     position: absolute;
     text-align:center;
@@ -373,7 +378,11 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .txt_orange {
-    color: #e67e22;
+    color: #ff0000;
+}
+
+.txt_red {
+    color: #ff0000;
 }
 
 .txt_slogan {
@@ -386,6 +395,13 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     float :left; 
     margin-top: 10px;
 }
+
+.templatemo-line-header2 span {
+    font-size: 18px; 
+    float :left; 
+    margin-top: 10px;
+}
+
 
 .team_box  div {
     text-align: center; 
@@ -529,7 +545,7 @@ a:hover .social-icon-dribbble {
 }
 
 ul.templatemo-project-gallery  li  a img:hover {
-    border: 3px solid #ff7600;
+    border: 3px solid #e80000;
 }
 
 .templatemo-gallery-category a {
@@ -537,17 +553,17 @@ ul.templatemo-project-gallery  li  a img:hover {
 }
 
 .templatemo-gallery-category a.active {
-	color:#e67e22; 
+	color:#ff0000; 
 	text-decoration:none;
 }
 
 .templatemo-gallery-category a:focus {
-	color:#e67e22;
+	color:#ff0000;
 	text-decoration:none;	
 }
 
 .templatemo-gallery-category a:hover {
-	color:#e67e22; 
+	color:#ff0000; 
 	text-decoration:none;
 }
 
